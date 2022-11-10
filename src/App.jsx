@@ -23,7 +23,7 @@ function App() {
     <div className={`${(isDark || "") && "dark"}`}>
       {/* 个人信息 */}
       <div className="sm:px-40 sm:py-20 bg-tech-green dark:bg-gray-700 dark:text-white relative h-screen select-none tracking-wide font-sans user-select">
-        <div className="flex mt-14 gap-10 sm:gap-24 flex-col xl:block items-center">
+        <div className="flex pt-14 gap-10 sm:gap-24 flex-col xl:block items-center">
           <img
             src={Avatar}
             alt="avatar"
